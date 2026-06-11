@@ -31,7 +31,7 @@ export default function RootLayout({
       lang="en"
       suppressHydrationWarning
     >
-      <body className={}>
+      <body className={`${lora.variable} ${dmSans.variable} font-sans`}>
         {children}
       </body>
     </html>
