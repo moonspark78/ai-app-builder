@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { DM_Sans, Lora } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "../components/theme-provider";
 
 const lora = Lora({
   subsets: ["latin"],
@@ -32,7 +33,14 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className={`${lora.variable} ${dmSans.variable} font-sans`}>
-        {children}
+        <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            {children}
+          </ThemeProvider>
       </body>
     </html>
   );
