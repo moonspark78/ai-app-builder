@@ -15,6 +15,8 @@ const Header = () => {
             className="h-9 w-auto rounded-md"
           />
         </Link>
+
+        <div className="flex items-center"></div>
       </nav>
     </header>
   )
