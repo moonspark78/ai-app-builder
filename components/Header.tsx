@@ -4,7 +4,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header>
+    <header className="fixed top-0">
       <nav>
         <Link>
           <Image
@@ -12,8 +12,7 @@ const Header = () => {
             alt="Logo"
             width={100}
             height={100}
-            
-          
+            className="h-9 w-auto rounded-md"
           />
         </Link>
       </nav>
