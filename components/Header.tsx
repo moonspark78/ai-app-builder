@@ -16,7 +16,14 @@ const Header = () => {
           />
         </Link>
 
-        <div className="flex items-center gap-5"></div>
+        <div className="flex items-center gap-5">
+          <Link
+            href={"projects"}
+            
+          >
+            Projects
+          </Link>
+        </div>
       </nav>
     </header>
   )
