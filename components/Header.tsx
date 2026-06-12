@@ -19,7 +19,7 @@ const Header = () => {
         <div className="flex items-center gap-5">
           <Link
             href={"projects"}
-            
+            className="text-[13px] font-medium text-white/40 transition-colors hover:text-white/80"
           >
             Projects
           </Link>
