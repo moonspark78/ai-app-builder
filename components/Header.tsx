@@ -19,6 +19,9 @@ const Header = () => {
         </Link>
 
         <div className="flex items-center gap-5">
+          <Show when="signed-in">
+              <UserButton />
+            </Show>
           <Link
             href={"projects"}
             className="text-[13px] font-medium text-white/40 transition-colors hover:text-white/80"
@@ -40,9 +43,7 @@ const Header = () => {
                 </button>
               </SignUpButton>
             </Show>
-            <Show when="signed-in">
-              <UserButton />
-            </Show>
+            
         </div>
       </nav>
     </header>
