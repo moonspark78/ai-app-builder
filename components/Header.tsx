@@ -29,6 +29,19 @@ const Header = () => {
             <Zap className="h-3 w-3 fill-white/70"/>
             3 / 40 credits
           </span>
+
+
+          <Show when="signed-out">
+              <SignInButton />
+              <SignUpButton>
+                <button className="bg-purple-700 text-white rounded-full font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 cursor-pointer">
+                  Sign Up
+                </button>
+              </SignUpButton>
+            </Show>
+            <Show when="signed-in">
+              <UserButton />
+            </Show>
         </div>
       </nav>
     </header>
