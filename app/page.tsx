@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div className="pt-30">
-      <Button variant={"destructive"} >Test</Button>
-    </div>
+    <main className="min-h-screen bg-[#0a0a0a] selection:bg-white/20">
+      
+    </main>
   );
 }
