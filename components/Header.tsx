@@ -44,7 +44,7 @@ const Header = () => {
                 </Button>
               </SignInButton>
               <SignUpButton mode="modal">
-               <Button size="sm" className={"h-8 rounded-full font-semibold active:-95"}>
+               <Button size="sm" className={"h-8 rounded-full font-semibold active:-95 px-4"}>
                   Get Started
                     <ArrowRight className="h-3 w-3 opacity-60" />
                 </Button>
