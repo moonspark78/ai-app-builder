@@ -9,6 +9,7 @@ export default function Home() {
       <section className="relative flex flex-col items-center overflow-hidden px-4 pb-24 pt-40 text-center">
         <Badge>
             <div className="h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-400"/>
+            Powered by Gemini 3.5 Flash
         </Badge>
       </section>
     </main>
