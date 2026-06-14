@@ -64,3 +64,11 @@ export const STEPS = [
     desc: "Open in CodeSandbox, copy the source, and deploy to a live URL.",
   },
 ];
+
+export const PLACEHOLDERS = [
+  "A task manager with priority labels and drag-and-drop…",
+  "A crypto portfolio tracker with live charts…",
+  "A markdown notes app with live preview…",
+  "An expense tracker with monthly breakdowns…",
+  "A habit tracker with streaks and heatmaps…",
+];
