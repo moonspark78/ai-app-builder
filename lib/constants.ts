@@ -15,3 +15,7 @@ export const PLANS = {
     price: 29,
   },
 } as const;
+
+export const CREDIT_COST_PER_GENERATION = 1;
+
+export const MIN_CREDITS_TO_GENERATE = 1;
