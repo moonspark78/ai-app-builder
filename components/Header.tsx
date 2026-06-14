@@ -39,7 +39,7 @@ const Header = () => {
 
           <Show when="signed-out">
               <SignInButton mode="modal">
-                <Button variant="ghost" size="sm">
+                <Button variant="ghost" size="sm" className={"text-white/40"}>
                   Sign in
                 </Button>
               </SignInButton>
