@@ -1,5 +1,5 @@
 import { Show, SignInButton, SignUpButton, UserButton } from '@clerk/nextjs'
-import { Zap } from 'lucide-react'
+import { ArrowRight, Zap } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Button } from './ui/button'
@@ -45,7 +45,8 @@ const Header = () => {
               </SignInButton>
               <SignUpButton mode="modal">
                <Button size="sm" className={"text-white/40"}>
-                  Sign up
+                  Get Started
+                    <ArrowRight className="h-3 w-3 opacity-60" />
                 </Button>
               </SignUpButton>
             </Show>
