@@ -7,6 +7,9 @@ export const GrayTitle = ({children} : {children: React.ReactNode}) => {
 export const BlueTitle = ({
     children,
     className= "",
-} : {}) => {
+} : {
+    children: React.ReactNode,
+    className?: string
+}) => {
     return ();
 } 
