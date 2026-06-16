@@ -14,7 +14,7 @@ export default function Home() {
             Powered by Gemini 3.5 Flash
         </Badge>
 
-        <h1 className="mx-auto max-w-3xl text-balance font-serif text-5xl leading-tight">
+        <h1 className="mx-auto max-w-3xl text-balance font-serif text-5xl leading-tight tracking-tight sm:text-5xl lg:text-7xl z-10">
 
         </h1>
       </section>
