@@ -11,5 +11,9 @@ export const BlueTitle = ({
     children: React.ReactNode,
     className?: string
 }) => {
-    return ();
+    return (
+        <span>
+            {children}
+        </span>
+    );
 } 
