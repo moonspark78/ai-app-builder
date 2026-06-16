@@ -13,6 +13,10 @@ export default function Home() {
             <div className="h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-400"/>
             Powered by Gemini 3.5 Flash
         </Badge>
+
+        <h1 className="mx-auto max-w-3xl text-balance">
+
+        </h1>
       </section>
     </main>
   );
