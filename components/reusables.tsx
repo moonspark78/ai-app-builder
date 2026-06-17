@@ -34,4 +34,12 @@ export const SectionHeading =({
 } : {
     gray: string,
     blue: string
-}) => {};
+}) => {
+    return (
+        <h2>
+            <GrayTitle>{gray}</GrayTitle> 
+                <br/>
+            <BlueTitle>{blue}</BlueTitle>
+        </h2>
+    )
+};
