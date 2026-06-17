@@ -36,7 +36,7 @@ export const SectionHeading =({
     blue: string
 }) => {
     return (
-        <h2>
+        <h2 className="font-serif text-[clamp(2rem, 4vw,3rem)] leading-[1.1] tracking-tight">
             <GrayTitle>{gray}</GrayTitle> 
                 <br/>
             <BlueTitle>{blue}</BlueTitle>
