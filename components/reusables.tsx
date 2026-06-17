@@ -27,3 +27,11 @@ export const SectionLabel = ({children} : {children: React.ReactNode}) => {
         </p>
     );
 };
+
+export const SectionHeading =({
+    gray,
+    blue,
+} : {
+    gray: string,
+    blue: string
+}) => {};
