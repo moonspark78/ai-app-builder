@@ -33,6 +33,7 @@ export default function Home() {
               "rounded-2xl border bg-[#111111] duration-200",
               isFocused
                 ? "border-white/20 ring-1 ring-white/8"
+                : "border-white/8"
             )}
           ></div>
         </div>
