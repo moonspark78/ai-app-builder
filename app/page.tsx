@@ -30,7 +30,9 @@ export default function Home() {
         <div className="relative mx-auto mt-12 w-full max-w-2xl">
           <div
             className={cn(
-              "rounded-2xl border bg-[#111111] duration-200"
+              "rounded-2xl border bg-[#111111] duration-200",
+              isFocused
+                ? "border-white/20 ring-1 ring-white/8"
             )}
           ></div>
         </div>
