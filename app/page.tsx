@@ -20,6 +20,10 @@ export default function Home() {
             <br/>
           <BlueTitle>from a single prompt.</BlueTitle>
         </h1>
+        <p className="mx-auto mt-6 max-w-xl text-balance text-white/40 text-base leading-relaxed z-10">
+          Describe your vision, and our AI will bring it to life. From stunning visuals to captivating narratives,
+          we turn your ideas into reality with just a few words.
+        </p>
       </section>
     </main>
   );
