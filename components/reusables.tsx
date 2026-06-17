@@ -20,7 +20,7 @@ export const BlueTitle = ({
 
 export const SectionLabel = ({children} : {children: React.ReactNode}) => {
     return (
-        <p>
+        <p className="inline-block items-center gap-2 text-xs font-semibold">
             {children}
         </p>
     );
