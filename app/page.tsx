@@ -1,6 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { StarsBackground } from "../components/animate-ui/components/backgrounds/stars";
 import { BlueTitle, GrayTitle } from "../components/reusables";
+import { cn } from "../lib/utils";
 
 
 
@@ -27,9 +28,11 @@ export default function Home() {
 
         {/* Prompt Box */}
         <div className="relative mx-auto mt-12 w-full max-w-2xl">
-          <div>
-
-          </div>
+          <div
+            className={cn(
+              "rounded-2xl border bg-[#111111] duration-200"
+            )}
+          ></div>
         </div>
       </section>
     </main>
