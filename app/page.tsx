@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { StarsBackground } from "../components/animate-ui/components/backgrounds/stars";
+import { BlueTitle, GrayTitle } from "../components/reusables";
 
 
 
@@ -15,7 +16,9 @@ export default function Home() {
         </Badge>
 
         <h1 className="mx-auto max-w-3xl text-balance font-serif text-5xl leading-tight tracking-tight sm:text-5xl lg:text-7xl z-10">
-
+          <GrayTitle>Forge your dream</GrayTitle> 
+            <br/>
+          <BlueTitle>from a single prompt.</BlueTitle>
         </h1>
       </section>
     </main>
