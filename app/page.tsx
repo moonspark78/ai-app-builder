@@ -24,6 +24,13 @@ export default function Home() {
           Describe your vision, and our AI will bring it to life. From stunning visuals to captivating narratives,
           we turn your ideas into reality with just a few words.
         </p>
+
+        {/* Prompt Box */}
+        <div className="relative mx-auto mt-12 w-full max-w-2xl">
+          <div>
+
+          </div>
+        </div>
       </section>
     </main>
   );
