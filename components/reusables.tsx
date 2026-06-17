@@ -18,4 +18,10 @@ export const BlueTitle = ({
     );
 }
 
-export const SectionLabel = ({children} : {children: React.ReactNode}) => {};
+export const SectionLabel = ({children} : {children: React.ReactNode}) => {
+    return (
+        <p>
+            {children}
+        </p>
+    );
+};
