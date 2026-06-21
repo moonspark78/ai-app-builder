@@ -74,7 +74,8 @@ export default function Home() {
               onBlur={() => setIsFocused(false)}
               onKeyDown={handleKeyDown}
               rows={1}
-              className="w-full resize-none bg-transparent px-5 pb-4 pt-5 text-sm placeholder:text-white/20"
+              className="w-full resize-none bg-transparent px-5 pb-4 pt-5 text-sm placeholder:text-white/20 focus:outline-none sm:text-base"
+              style={{ minHeight:56, maxHeight: 200 }}
             />
           </div>
         </div>
