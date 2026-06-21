@@ -1,7 +1,7 @@
 "use client";
 
 import { Badge } from "@/components/ui/badge";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import { useRef, useState } from "react";
 import { StarsBackground } from "../components/animate-ui/components/backgrounds/stars";
 import { BlueTitle, GrayTitle } from "../components/reusables";
@@ -73,7 +73,9 @@ export default function Home() {
               onFocus={() => setIsFocused(true)}
               onBlur={() => setIsFocused(false)}
               onKeyDown={handleKeyDown}
-            ></textarea>
+              rows={1}
+              className="w-full resize-none bg-transparent px-5 pb-4 pt-5 text-sm placeholder:text-white/20"
+            />
           </div>
         </div>
       </section>
