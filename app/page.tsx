@@ -1,3 +1,5 @@
+"use client";
+
 import { Badge } from "@/components/ui/badge";
 import { StarsBackground } from "../components/animate-ui/components/backgrounds/stars";
 import { BlueTitle, GrayTitle } from "../components/reusables";
