@@ -21,7 +21,10 @@ export default function Home() {
   const [prompt, setPrompt] = useState("");
   const [placeholderIndex, setPlaceholderIndex] = useState(0);
 
-  const handleSubmit = () => {};
+  const handleSubmit = () => {
+    if(!prompt.trim() || !isSignedIn) return;
+    router.push(`/workspace?prompt=${encodeURIComponent(prompt.trim())}`);
+  };
 
   /* Submit on Enter, allow Shift+Enter for new line */
   const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
