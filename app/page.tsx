@@ -21,11 +21,14 @@ export default function Home() {
   const [prompt, setPrompt] = useState("");
   const [placeholderIndex, setPlaceholderIndex] = useState(0);
 
+  const handleSubmit = () => {};
+
   /* Submit on Enter, allow Shift+Enter for new line */
   const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
     if (e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
       // Handle submission logic here
+      handleSubmit();
     }
   };
 
