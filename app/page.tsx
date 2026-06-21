@@ -22,7 +22,12 @@ export default function Home() {
   const [placeholderIndex, setPlaceholderIndex] = useState(0);
 
   /* Submit on Enter, allow Shift+Enter for new line */
-  const handleKeyDown = () => {};
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      // Handle submission logic here
+    }
+  };
 
 
 
