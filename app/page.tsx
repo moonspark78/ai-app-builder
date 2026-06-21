@@ -1,7 +1,7 @@
 "use client";
 
 import { Badge } from "@/components/ui/badge";
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/router";
 import { useRef, useState } from "react";
 import { StarsBackground } from "../components/animate-ui/components/backgrounds/stars";
 import { BlueTitle, GrayTitle } from "../components/reusables";
@@ -51,7 +51,13 @@ export default function Home() {
                 ? "border-white/20 ring-1 ring-white/8"
                 : "border-white/8"
             )}
-          ></div>
+          >
+            <textarea
+              ref={textareaRef}
+              value={prompt}
+              onChange={(e) => setPrompt(e.target.value)}
+            ></textarea>
+          </div>
         </div>
       </section>
     </main>
