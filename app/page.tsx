@@ -1,15 +1,21 @@
 "use client";
 
 import { Badge } from "@/components/ui/badge";
+import { useRouter } from "next/navigation";
+import { useRef, useState } from "react";
 import { StarsBackground } from "../components/animate-ui/components/backgrounds/stars";
 import { BlueTitle, GrayTitle } from "../components/reusables";
 import { cn } from "../lib/utils";
-import { useState } from "react";
+import { useAuth } from "@clerk/nextjs";
 
 
 
 
 export default function Home() {
+
+  const {isSignedIn} = useAuth();
+  const router = useRouter();
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   const [isFocused, setIsFocused] = useState(false);
   const [prompt, setPrompt] = useState("");
