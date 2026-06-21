@@ -2,11 +2,14 @@ import { Badge } from "@/components/ui/badge";
 import { StarsBackground } from "../components/animate-ui/components/backgrounds/stars";
 import { BlueTitle, GrayTitle } from "../components/reusables";
 import { cn } from "../lib/utils";
+import { useState } from "react";
 
 
 
 
 export default function Home() {
+
+  const [isFocused, setIsFocused] = useState(false);
   return (
     <main className="min-h-screen bg-[#0a0a0a] selection:bg-white/20">
       <section className="relative h-screen flex flex-col items-center overflow-hidden px-4 pb-24 pt-40 text-center">
