@@ -56,6 +56,8 @@ export default function Home() {
               ref={textareaRef}
               value={prompt}
               onChange={(e) => setPrompt(e.target.value)}
+              onFocus={() => setIsFocused(true)}
+              onBlur={() => setIsFocused(false)}
             ></textarea>
           </div>
         </div>
