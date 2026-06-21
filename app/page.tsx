@@ -12,6 +12,11 @@ import { useState } from "react";
 export default function Home() {
 
   const [isFocused, setIsFocused] = useState(false);
+  const [prompt, setPrompt] = useState("");
+  const [placeholderIndex, setPlaceholderIndex] = useState(0);
+
+
+
   return (
     <main className="min-h-screen bg-[#0a0a0a] selection:bg-white/20">
       <section className="relative h-screen flex flex-col items-center overflow-hidden px-4 pb-24 pt-40 text-center">
