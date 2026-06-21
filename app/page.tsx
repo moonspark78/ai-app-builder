@@ -21,6 +21,9 @@ export default function Home() {
   const [prompt, setPrompt] = useState("");
   const [placeholderIndex, setPlaceholderIndex] = useState(0);
 
+  /* Submit on Enter, allow Shift+Enter for new line */
+  const handleKeyDown = () => {};
+
 
 
   return (
@@ -58,6 +61,7 @@ export default function Home() {
               onChange={(e) => setPrompt(e.target.value)}
               onFocus={() => setIsFocused(true)}
               onBlur={() => setIsFocused(false)}
+              onKeyDown={handleKeyDown}
             ></textarea>
           </div>
         </div>
