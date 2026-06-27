@@ -25,9 +25,10 @@ export default function Home() {
   useEffect(() => {
     if (isFocused || prompt) return;
     const t = setInterval(() => {
-      setPlaceholderIndex((1) => (i +1) % PLACEHOLDERS.length);
+      setPlaceholderIndex((i) => (i +1) % PLACEHOLDERS.length);
     }, 3000);
-  })
+    return () => clearInterval(t);
+  }, [isFocused, prompt]);
 
   const handleSubmit = () => {
     if(!prompt.trim() || !isSignedIn) return;
