@@ -30,6 +30,10 @@ export default function Home() {
     return () => clearInterval(t);
   }, [isFocused, prompt]);
 
+  useEffect(() => {
+    const el = textareaRef.current;
+  });
+
   const handleSubmit = () => {
     if(!prompt.trim() || !isSignedIn) return;
     router.push(`/workspace?prompt=${encodeURIComponent(prompt.trim())}`);
