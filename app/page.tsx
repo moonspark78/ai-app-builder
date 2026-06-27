@@ -24,7 +24,9 @@ export default function Home() {
 
   useEffect(() => {
     if (isFocused || prompt) return;
-    const t = setInterval(() => {})
+    const t = setInterval(() => {
+      setPlaceholderIndex((1) => (i +1) % PLACEHOLDERS.length);
+    }, 3000);
   })
 
   const handleSubmit = () => {
