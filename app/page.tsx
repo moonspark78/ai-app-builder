@@ -2,7 +2,7 @@
 
 import { Badge } from "@/components/ui/badge";
 import { useRouter } from "next/navigation";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import { StarsBackground } from "../components/animate-ui/components/backgrounds/stars";
 import { BlueTitle, GrayTitle } from "../components/reusables";
 import { cn } from "../lib/utils";
@@ -21,6 +21,8 @@ export default function Home() {
   const [isFocused, setIsFocused] = useState(false);
   const [prompt, setPrompt] = useState("");
   const [placeholderIndex, setPlaceholderIndex] = useState(0);
+
+  useEffect(() => {})
 
   const handleSubmit = () => {
     if(!prompt.trim() || !isSignedIn) return;
