@@ -7,6 +7,7 @@ import { StarsBackground } from "../components/animate-ui/components/backgrounds
 import { BlueTitle, GrayTitle } from "../components/reusables";
 import { cn } from "../lib/utils";
 import { useAuth } from "@clerk/nextjs";
+import { PLACEHOLDERS } from "../lib/data";
 
 
 
@@ -76,6 +77,7 @@ export default function Home() {
               rows={1}
               className="w-full resize-none bg-transparent px-5 pb-4 pt-5 text-sm placeholder:text-white/20 focus:outline-none sm:text-base"
               style={{ minHeight:56, maxHeight: 200 }}
+              placeholder={PLACEHOLDERS[placeholderIndex]}
             />
           </div>
         </div>
