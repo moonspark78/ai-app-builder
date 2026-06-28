@@ -6,8 +6,9 @@ import { useRef, useState, useEffect } from "react";
 import { StarsBackground } from "../components/animate-ui/components/backgrounds/stars";
 import { BlueTitle, GrayTitle } from "../components/reusables";
 import { cn } from "../lib/utils";
-import { useAuth } from "@clerk/nextjs";
+import { SignInButton, useAuth } from "@clerk/nextjs";
 import { PLACEHOLDERS } from "../lib/data";
+import { Button } from "@base-ui/react";
 
 
 
@@ -99,6 +100,13 @@ export default function Home() {
               <span>
                 Press ⏎ to generate. Shift+⏎ for new line
               </span>
+              {isSignedIn ? (
+              <Button></Button>
+            ) : ( 
+              <SignInButton>
+
+              </SignInButton>
+            )}
             </div>
 
 
