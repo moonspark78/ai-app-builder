@@ -9,6 +9,7 @@ import { cn } from "../lib/utils";
 import { SignInButton, useAuth } from "@clerk/nextjs";
 import { PLACEHOLDERS } from "../lib/data";
 import { Button } from "@base-ui/react";
+import { ArrowRight } from "lucide-react";
 
 
 
@@ -105,6 +106,7 @@ export default function Home() {
             ) : ( 
               <SignInButton mode="modal">
                   <Button className= "h-8 rounded-full bg-white px-5 font-semibold"> Generate </Button>
+                  <ArrowRight className="h-3.5 w-3.5"/>
               </SignInButton>
             )}
             </div>
