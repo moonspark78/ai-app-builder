@@ -102,7 +102,13 @@ export default function Home() {
                 Press ⏎ to generate. Shift+⏎ for new line
               </span>
               {isSignedIn ? (
-                <Button>Generate</Button>
+                <Button
+                  onClick={handleSubmit}
+                  disabled={!prompt.trim()}
+                  className="h-8 rounded-full px-5"
+                >
+                  Generate
+                </Button>
             ) : ( 
               <SignInButton mode="modal">
                   <Button className= "h-8 rounded-full bg-white px-5 font-semibold"> Generate </Button>
