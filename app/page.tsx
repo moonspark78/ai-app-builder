@@ -94,6 +94,12 @@ export default function Home() {
               style={{ minHeight:56, maxHeight: 200 }}
               placeholder={PLACEHOLDERS[placeholderIndex]}
             />
+
+            <div className="flex items-center justify-between border-t border-white/6 px-4 py-2.5">
+
+            </div>
+
+
           </div>
         </div>
       </section>
