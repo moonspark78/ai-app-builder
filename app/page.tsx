@@ -105,13 +105,16 @@ export default function Home() {
                 <Button
                   onClick={handleSubmit}
                   disabled={!prompt.trim()}
-                  className="h-8 rounded-full px-5 font-semibold"
+                  className={cn(
+                    "h-8 rounded-full px-5 font-semibold",
+                    prompt.trim() ? "bg-white text-black" : "bg-white/10 text-white/60"
+                  )}
                 >
                   Generate
                 </Button>
             ) : ( 
               <SignInButton mode="modal">
-                  <Button className= "h-8 rounded-full bg-white px-5 font-semibold"> Generate </Button>
+                  <Button className="h-8 rounded-full bg-white px-5 font-semibold"> Generate </Button>
                   <ArrowRight className="h-3.5 w-3.5"/>
               </SignInButton>
             )}
