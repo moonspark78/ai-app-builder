@@ -101,7 +101,7 @@ export default function Home() {
                 Press ⏎ to generate. Shift+⏎ for new line
               </span>
               {isSignedIn ? (
-              <Button></Button>
+              <Button className= "h-8 rounded-full bg-white px-5 font-semibold"> Generate </Button>
             ) : ( 
               <SignInButton>
 
