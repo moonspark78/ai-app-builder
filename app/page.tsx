@@ -8,7 +8,7 @@ import { BlueTitle, GrayTitle } from "../components/reusables";
 import { cn } from "../lib/utils";
 import { SignInButton, useAuth } from "@clerk/nextjs";
 import { PLACEHOLDERS } from "../lib/data";
-import { Button } from "@base-ui/react";
+import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
 
@@ -106,6 +106,7 @@ export default function Home() {
                   onClick={handleSubmit}
                   disabled={!prompt.trim()}
                   className="h-8 rounded-full px-5 font-semibold"
+                  variant={prompt.trim() ? "default" : "secondary"}
                 >
                   Generate
                 </Button>
