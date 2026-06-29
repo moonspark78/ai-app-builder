@@ -122,7 +122,7 @@ export default function Home() {
           <div>
             {SUGGESTIONS.map((s) => (
               <button>
-                {}
+                {s}
               </button>
             ))}
           </div>
