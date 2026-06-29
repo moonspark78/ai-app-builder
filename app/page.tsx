@@ -124,7 +124,7 @@ export default function Home() {
               <button
                 key={s}
                 // onClick={() => handleSuggestion(s)}
-                className="rounded-full"
+                className="rounded-full border border-white/8 bg-white/4 px-3 py-1.5 text-xs text-white/40 hover:border-white/15"
               >
                 {s}
               </button>
