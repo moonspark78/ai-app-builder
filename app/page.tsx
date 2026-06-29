@@ -105,10 +105,7 @@ export default function Home() {
                 <Button
                   onClick={handleSubmit}
                   disabled={!prompt.trim()}
-                  className={cn(
-                    "h-8 rounded-full px-5 font-semibold",
-                    prompt.trim() ? "bg-white text-black" : "bg-white/10 text-white/60"
-                  )}
+                  className="h-8 rounded-full px-5 font-semibold"
                 >
                   Generate
                 </Button>
