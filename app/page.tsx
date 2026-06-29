@@ -119,7 +119,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div>
+          <div className="mt-4 flex flex-wrap">
             {SUGGESTIONS.map((s) => (
               <button>
                 {s}
