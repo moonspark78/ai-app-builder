@@ -123,6 +123,7 @@ export default function Home() {
             {SUGGESTIONS.map((s) => (
               <button
                 key={s}
+                // onClick={() => handleSuggestion(s)}
               >
                 {s}
               </button>
