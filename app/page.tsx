@@ -124,6 +124,7 @@ export default function Home() {
               <button
                 key={s}
                 // onClick={() => handleSuggestion(s)}
+                className="rounded-full"
               >
                 {s}
               </button>
