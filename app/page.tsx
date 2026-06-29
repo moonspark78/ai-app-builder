@@ -121,7 +121,9 @@ export default function Home() {
 
           <div className="mt-4 flex flex-wrap justify-center gap-2">
             {SUGGESTIONS.map((s) => (
-              <button>
+              <button
+                key={s}
+              >
                 {s}
               </button>
             ))}
