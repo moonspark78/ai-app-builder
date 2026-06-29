@@ -7,7 +7,7 @@ import { StarsBackground } from "../components/animate-ui/components/backgrounds
 import { BlueTitle, GrayTitle } from "../components/reusables";
 import { cn } from "../lib/utils";
 import { SignInButton, useAuth } from "@clerk/nextjs";
-import { PLACEHOLDERS } from "../lib/data";
+import { PLACEHOLDERS, SUGGESTIONS } from "../lib/data";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
@@ -117,8 +117,14 @@ export default function Home() {
               </SignInButton>
             )}
             </div>
+          </div>
 
-
+          <div>
+            {SUGGESTIONS.map((s) => (
+              <button>
+                {}
+              </button>
+            ))}
           </div>
         </div>
       </section>
