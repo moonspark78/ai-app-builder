@@ -135,9 +135,6 @@ export default function Home() {
 
         {/* --- */}
         <div>
-          <span>
-            ge
-          </span>
         </div>
 
       </section>
