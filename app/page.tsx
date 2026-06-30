@@ -138,7 +138,7 @@ export default function Home() {
           <span>
             ge
           </span>
-          <button className="w-0.5">opopop</button>
+          <button className="w-0.5 justify-around">opopop</button>
         </div>
 
       </section>
