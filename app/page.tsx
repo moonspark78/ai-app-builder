@@ -138,7 +138,6 @@ export default function Home() {
           <span>
             ge
           </span>
-          <button className="w-0.5 justify-around motion-safe:*asReact font-bold">opopop</button>
         </div>
 
       </section>
