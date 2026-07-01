@@ -137,6 +137,10 @@ export default function Home() {
             ))}
           </div>
         </div>
+
+        <p>
+          No credit card required. 10 free generations per day.
+        </p>
       </section>
     </main>
 
