@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { useRouter } from "next/navigation";
 import { useRef, useState, useEffect } from "react";
 import { StarsBackground } from "../components/animate-ui/components/backgrounds/stars";
-import { BlueTitle, GrayTitle } from "../components/reusables";
+import { BlueTitle, GrayTitle, SectionLabel } from "../components/reusables";
 import { cn } from "../lib/utils";
 import { SignInButton, useAuth } from "@clerk/nextjs";
 import { PLACEHOLDERS, SUGGESTIONS } from "../lib/data";
@@ -144,7 +144,9 @@ export default function Home() {
       </section>
 
       <section className="px-4 pb-32">
-        <div></div>
+        <div>
+          <SectionLabel>Everything you need</SectionLabel>
+        </div>
       </section>
     </main>
 
