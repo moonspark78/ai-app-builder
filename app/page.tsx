@@ -142,6 +142,10 @@ export default function Home() {
           No credit card required. 10 free generations per day.
         </p>
       </section>
+
+      <section className="px-4 pb-32">
+        <div></div>
+      </section>
     </main>
 
 
