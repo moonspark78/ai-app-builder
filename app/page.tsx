@@ -55,6 +55,7 @@ export default function Home() {
 
   const handleSuggestion = (s: string) => {
     setPrompt(s);
+    textareaRef.current?.focus();
   };
 
 
