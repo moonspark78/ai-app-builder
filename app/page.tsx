@@ -4,12 +4,12 @@ import { Badge } from "@/components/ui/badge";
 import { useRouter } from "next/navigation";
 import { useRef, useState, useEffect } from "react";
 import { StarsBackground } from "../components/animate-ui/components/backgrounds/stars";
-import { BlueTitle, GrayTitle, SectionLabel } from "../components/reusables";
+import { BlueTitle, GrayTitle, SectionHeading, SectionLabel } from "../components/reusables";
 import { cn } from "../lib/utils";
 import { SignInButton, useAuth } from "@clerk/nextjs";
 import { PLACEHOLDERS, SUGGESTIONS } from "../lib/data";
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Section } from "lucide-react";
 
 
 
@@ -146,6 +146,7 @@ export default function Home() {
       <section className="px-4 pb-32">
         <div className="mx-auto mb-14 max-w-5xl text-center">
           <SectionLabel>Everything you need</SectionLabel>
+          <SectionHeading gray="From prompt" />
         </div>
       </section>
     </main>
