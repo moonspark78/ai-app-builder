@@ -138,7 +138,7 @@ export default function Home() {
           </div>
         </div>
 
-        <p>
+        <p className="mt-10 text-xs text-white/20">
           No credit card required. 10 free generations per day.
         </p>
       </section>
