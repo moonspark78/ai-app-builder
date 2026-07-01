@@ -146,7 +146,7 @@ export default function Home() {
       <section className="px-4 pb-32">
         <div className="mx-auto mb-14 max-w-5xl text-center">
           <SectionLabel>Everything you need</SectionLabel>
-          <SectionHeading gray="From prompt" />
+          <SectionHeading gray="From" blue="to production" />
         </div>
       </section>
     </main>
