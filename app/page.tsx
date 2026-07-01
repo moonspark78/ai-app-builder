@@ -144,7 +144,7 @@ export default function Home() {
       </section>
 
       <section className="px-4 pb-32">
-        <div>
+        <div className="mx-auto">
           <SectionLabel>Everything you need</SectionLabel>
         </div>
       </section>
