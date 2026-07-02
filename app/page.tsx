@@ -145,9 +145,8 @@ export default function Home() {
             return (
               <div
                 key={label}
-                className="group bg-[#0a0a0a]"
-              >
-                
+                className="group bg-[#0a0a0a] p-7 hover:bg-[#0f0f0f]"
+              >  
               </div>
             )
           })}
