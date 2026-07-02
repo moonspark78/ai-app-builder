@@ -139,6 +139,8 @@ export default function Home() {
           <SectionLabel>Everything you need</SectionLabel>
           <SectionHeading gray="From" blue="to production" />
         </div>
+
+        <div></div>
       </section>
     </main>
   );
