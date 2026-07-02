@@ -149,7 +149,7 @@ export default function Home() {
                 className="group bg-[#0a0a0a] p-7 hover:bg-[#0f0f0f]"
               >
                   <div>
-                      <Icon className="h-4 w-4" />                    
+                      <Icon className="h-4 w-4 text-white/60" />                    
                   </div>  
               </div>
             )
