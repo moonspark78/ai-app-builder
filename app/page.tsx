@@ -140,7 +140,7 @@ export default function Home() {
           <SectionHeading gray="From" blue="to production" />
         </div>
 
-        <div>
+        <div className="mx-auto grid max-w-5xl">
           {FEATURES.map(({icon: Icon, label, desc}) => {
             return (
               <div
