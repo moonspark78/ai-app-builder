@@ -7,7 +7,7 @@ import { StarsBackground } from "../components/animate-ui/components/backgrounds
 import { BlueTitle, GrayTitle, SectionHeading, SectionLabel } from "../components/reusables";
 import { cn } from "../lib/utils";
 import { SignInButton, useAuth } from "@clerk/nextjs";
-import { PLACEHOLDERS, SUGGESTIONS } from "../lib/data";
+import { FEATURES, PLACEHOLDERS, SUGGESTIONS } from "../lib/data";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
@@ -143,7 +143,10 @@ export default function Home() {
         <div>
           {FEATURES.map(({icon: Icon, label, desc}) => {
             return (
-              <div>
+              <div
+                key={label}
+                className="group"
+              >
                 
               </div>
             )
