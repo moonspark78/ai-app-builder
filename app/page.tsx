@@ -140,7 +140,8 @@ export default function Home() {
           <SectionHeading gray="From" blue="to production" />
         </div>
 
-        <div className="mx-auto grid max-w-5xl">
+        <div className="mx-auto grid max-w-5xl grid-cols-1 gap-px overflow-hidden rounded-2xl border
+         border-white/6 bg-white/6 sm:grid-cols-2 lg:grid-cols-3">
           {FEATURES.map(({icon: Icon, label, desc}) => {
             return (
               <div
