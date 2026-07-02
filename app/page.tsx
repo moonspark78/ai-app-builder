@@ -145,7 +145,7 @@ export default function Home() {
             return (
               <div
                 key={label}
-                className="group"
+                className="group bg-[#0a0a0a]"
               >
                 
               </div>
