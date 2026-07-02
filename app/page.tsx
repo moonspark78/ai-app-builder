@@ -140,7 +140,15 @@ export default function Home() {
           <SectionHeading gray="From" blue="to production" />
         </div>
 
-        <div></div>
+        <div>
+          {FEATURES.map(({icon: Icon, label, desc}) => {
+            return (
+              <div>
+                
+              </div>
+            )
+          })}
+        </div>
       </section>
     </main>
   );
