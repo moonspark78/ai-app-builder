@@ -148,7 +148,8 @@ export default function Home() {
                 key={label}
                 className="group bg-[#0a0a0a] p-7 hover:bg-[#0f0f0f]"
               >
-                  <div className="mb-4 flrx h-9 w-9 items-center justify-center rounded-lg border border-white/8 bg-white/4">
+                  <div className="mb-4 flrx h-9 w-9 items-center justify-center rounded-lg border border-white/8 bg-white/4
+                  group-hover:border-white/15 group-hover:bg-white/8">
                       <Icon className="h-4 w-4 text-white/60 group-hover:text-blue-400/70" />                    
                   </div>
                   <p className="mb-2 text-sm font-semibold">{label}</p>
