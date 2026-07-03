@@ -152,6 +152,7 @@ export default function Home() {
                       <Icon className="h-4 w-4 text-white/60 group-hover:text-blue-400/70" />                    
                   </div>
                   <p className="mb-2 text-sm font-semibold">{label}</p>
+                  <p className="text-xs text-white/40">{desc}</p>
               </div>
             )
           })}
