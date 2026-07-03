@@ -7,7 +7,7 @@ import { StarsBackground } from "../components/animate-ui/components/backgrounds
 import { BlueTitle, GrayTitle, SectionHeading, SectionLabel } from "../components/reusables";
 import { cn } from "../lib/utils";
 import { SignInButton, useAuth } from "@clerk/nextjs";
-import { FEATURES, PLACEHOLDERS, SUGGESTIONS } from "../lib/data";
+import { FEATURES, PLACEHOLDERS, STEPS, SUGGESTIONS } from "../lib/data";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
@@ -167,7 +167,11 @@ export default function Home() {
         </div>
 
         <div className="mx-auto  max-w-3xl ">
-          
+          {STEPS.map((step, i) => (
+            <div>
+              
+            </div>
+          ))}
         </div>
       </section>
     </main>
