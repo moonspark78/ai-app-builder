@@ -169,7 +169,9 @@ export default function Home() {
         <div className="mx-auto  max-w-3xl ">
           {STEPS.map((step, i) => (
             <div key={step.number} className="flex gap-6 ">
-              
+              <div className="flex flex-col items-center">
+
+              </div>
             </div>
           ))}
         </div>
