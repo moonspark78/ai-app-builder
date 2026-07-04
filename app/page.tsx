@@ -179,7 +179,7 @@ export default function Home() {
 
               <div>
                 <p>
-
+                  {step.label}
                 </p>
 
                 <p>
