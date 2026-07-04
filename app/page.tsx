@@ -175,6 +175,8 @@ export default function Home() {
                     {step.number}
                   </span>
                 </div>
+
+                {i < STEPS.length - 1 &&()}
               </div>
 
               <div className="pb-10 pt-1.5">
