@@ -205,9 +205,13 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="mx-auto  max-w-3xl ">
+        <div className="mx-auto  max-w-3xl">
           
         </div>
+      </section>
+
+      <section className="relative mx-auto mb-3é max-w-5xl">
+        
       </section>
     </main>
   );
