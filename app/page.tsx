@@ -176,7 +176,9 @@ export default function Home() {
                   </span>
                 </div>
 
-                {i < STEPS.length - 1 &&()}
+                {i < STEPS.length - 1 &&(
+                  <div className="mt-2 h-full w-px" />
+                )}
               </div>
 
               <div className="pb-10 pt-1.5">
