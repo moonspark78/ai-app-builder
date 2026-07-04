@@ -210,7 +210,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative mx-auto mb-3é max-w-5xl overflow-hidden rounded-2xl border">
+      <section className="relative mx-auto mb-3é max-w-5xl overflow-hidden rounded-2xl border border-white/8 px-10">
         
       </section>
     </main>
