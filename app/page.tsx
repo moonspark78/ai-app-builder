@@ -201,7 +201,7 @@ export default function Home() {
           <SectionHeading gray="Start free," blue="scale when ready." />
 
           <p>
-            No credit card
+            No credit card required. Upgrade or downgrade anytime. 10 free generations per day.
           </p>
         </div>
 
