@@ -178,11 +178,11 @@ export default function Home() {
               </div>
 
               <div className="pb-10 pt-1.5">
-                <p className="mb-1.5 text-sm font-semibold">
+                <p className="mb-1.5 text-sm font-semibold sm:text-base">
                   {step.label}
                 </p>
 
-                <p>
+                <p className="text-sm leading-relaxed text-white/40">
                   {step.desc}
                 </p>
               </div>
