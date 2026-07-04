@@ -199,6 +199,10 @@ export default function Home() {
         <div className="mx-auto mb-14 max-w-5xl text-center">
           <SectionLabel>Simple princing</SectionLabel>
           <SectionHeading gray="Start free," blue="scale when ready." />
+
+          <p>
+            No credit card
+          </p>
         </div>
 
         <div className="mx-auto  max-w-3xl ">
