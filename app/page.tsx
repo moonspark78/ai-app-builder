@@ -200,7 +200,7 @@ export default function Home() {
           <SectionLabel>Simple princing</SectionLabel>
           <SectionHeading gray="Start free," blue="scale when ready." />
 
-          <p className="mt-4 text-sm text-white/35">
+          <p className="mt-4 mx-auto max-w-sm text-sm text-white/35">
             No credit card required. Upgrade or downgrade anytime. 10 free generations per day.
           </p>
         </div>
