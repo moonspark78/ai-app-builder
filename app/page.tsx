@@ -177,8 +177,8 @@ export default function Home() {
                 </div>
               </div>
 
-              <div>
-                <p>
+              <div className="pb-10 pt-1.5">
+                <p className="mb-1.5 text-sm font-semibold">
                   {step.label}
                 </p>
 
