@@ -197,8 +197,8 @@ export default function Home() {
 
       <section className="px-4 pb-32">
         <div className="mx-auto mb-14 max-w-5xl text-center">
-          <SectionLabel>How it works</SectionLabel>
-          <SectionHeading gray="Four steps" blue="to a working app." />
+          <SectionLabel>Simple princing</SectionLabel>
+          <SectionHeading gray="Start free," blue="scale when ready." />
         </div>
 
         <div className="mx-auto  max-w-3xl ">
