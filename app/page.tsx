@@ -177,7 +177,7 @@ export default function Home() {
                 </div>
 
                 {i < STEPS.length - 1 &&(
-                  <div className="mt-2 h-full w-px" />
+                  <div className="mt-2 h-full w-px bg-white/6" />
                 )}
               </div>
 
