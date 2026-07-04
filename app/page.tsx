@@ -171,7 +171,7 @@ export default function Home() {
             <div key={step.number} className="flex gap-6 ">
               <div className="flex flex-col items-center">
                 <div>
-                  <span className="font-mono text-xs font-semibold">
+                  <span className="font-mono text-xs font-semibold text-white/50">
                     {step.number}
                   </span>
                 </div>
