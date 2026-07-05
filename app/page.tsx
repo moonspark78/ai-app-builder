@@ -219,7 +219,12 @@ export default function Home() {
         </p>
 
         <SignInButton mode="modal">
+          <Button
+            size="lg"
+            className="relative h-11"
+          >
 
+          </Button>
         </SignInButton>
       </section>
     </main>
