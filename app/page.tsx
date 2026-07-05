@@ -9,7 +9,7 @@ import { cn } from "../lib/utils";
 import { SignInButton, useAuth } from "@clerk/nextjs";
 import { FEATURES, PLACEHOLDERS, STEPS, SUGGESTIONS } from "../lib/data";
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ChevronRight } from "lucide-react";
 
 export default function Home() {
   const { isSignedIn } = useAuth();
@@ -224,6 +224,7 @@ export default function Home() {
             className="relative h-11 rounded-full bg-white px-8"
           >
             Get Started free
+            <ChevronRight className="h-4 w-4" />
           </Button>
         </SignInButton>
       </section>
