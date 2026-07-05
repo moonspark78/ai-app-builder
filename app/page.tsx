@@ -221,7 +221,7 @@ export default function Home() {
         <SignInButton mode="modal">
           <Button
             size="lg"
-            className="relative h-11"
+            className="relative h-11 rounded-full bg-white px-8"
           >
 
           </Button>
