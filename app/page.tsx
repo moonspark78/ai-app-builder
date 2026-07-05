@@ -214,6 +214,7 @@ export default function Home() {
         <SectionHeading gray="Start Building" blue="for free." />
         <p>
           Get 10 free generations per day. No credit card required. Upgrade or downgrade anytime.
+          <br/>
         </p>
       </section>
     </main>
