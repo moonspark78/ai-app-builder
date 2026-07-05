@@ -215,6 +215,7 @@ export default function Home() {
         <p>
           Get 10 free generations per day. No credit card required. Upgrade or downgrade anytime.
           <br/>
+          Upgrade when you&apos;re ready to scale.
         </p>
       </section>
     </main>
