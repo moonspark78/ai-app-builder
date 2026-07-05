@@ -223,7 +223,7 @@ export default function Home() {
             size="lg"
             className="relative h-11 rounded-full bg-white px-8"
           >
-
+            Get Started free
           </Button>
         </SignInButton>
       </section>
