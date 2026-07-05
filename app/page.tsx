@@ -212,6 +212,9 @@ export default function Home() {
 
       <section className="relative mx-auto mb-3é max-w-5xl overflow-hidden rounded-2xl border border-white/8 px-10 py-24 text-center">
         <SectionHeading gray="Start Building" blue="for free." />
+        <p>
+          Get 10 free generations per day. No credit card required. Upgrade or downgrade anytime.
+        </p>
       </section>
     </main>
   );
