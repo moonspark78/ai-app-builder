@@ -229,7 +229,7 @@ export default function Home() {
         </SignInButton>
       </section>
 
-      <footer className="relative z-10 border-t">
+      <footer className="relative z-10 border-t border-white/7 py-12 mx-auto px-6 flex flex-wrap">
         Made with ❤️ by Moonspark78
       </footer>
     </main>
