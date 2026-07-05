@@ -217,6 +217,10 @@ export default function Home() {
           <br/>
           Upgrade when you&apos;re ready to scale.
         </p>
+
+        <SignInButton mode="modal">
+
+        </SignInButton>
       </section>
     </main>
   );
