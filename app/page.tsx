@@ -228,6 +228,10 @@ export default function Home() {
           </Button>
         </SignInButton>
       </section>
+
+      <footer className="relative z-10 border-t">
+        Made with ❤️ by Moonspark78
+      </footer>
     </main>
   );
 }
